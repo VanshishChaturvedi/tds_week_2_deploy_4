@@ -51,7 +51,7 @@ async def process_analytics(payload: AnalyticsPayload, x_api_key: Optional[str] 
     top_user = max(user_positive_revenue, key=user_positive_revenue.get) if user_positive_revenue else ""
 
     return {
-        "email": "YOUR_LOGGED_IN_EMAIL@example.com",  # <-- UPDATE THIS
+        "email": "24f2003215@ds.study.iitm.ac.in",  # <-- UPDATE THIS
         "total_events": len(events),
         "unique_users": len(unique_users),
         "revenue": total_revenue,
